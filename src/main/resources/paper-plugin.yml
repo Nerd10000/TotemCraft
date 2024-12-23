@@ -1,0 +1,13 @@
+name: TotemCraft-base
+version: '${version}'
+main: dragon.craft.me.totemcraftbase.TotemCraft_base
+api-version: '1.21'
+commands:
+  freeshard:
+    description: 'Frees a specific shard from the game'
+    usage: '/freeshard <shard_number>'
+    permission: 'totemcraft.command.freeshard'
+  addshard:
+    description: 'Adds a shard to the game'
+    usage: '/addshard'
+    permission: 'totemcraft.command.addshard'
